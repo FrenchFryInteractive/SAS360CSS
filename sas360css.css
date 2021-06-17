@@ -1,0 +1,85 @@
+/* Add custom fonts here. */      
+
+@import url('https://assets.prod.ibn.host/Blandet/Danica/Danica_font.css');
+*[style*="Georgia"],
+*[style*="Times"],
+*[style*="serif"] {​​​​
+font-family: 'Danske Human' !important;
+}​​​​
+*[style*="Verdana"],
+    *[style*="sans-serif"] {​​​​
+    font-family: 'Danske Text' !important;
+    }
+
+.text {
+line-height: 5.5px !important;
+color: white !important;
+font-family: verdana !important;
+background-color: yellow !important;
+font-size: 10px !important;
+color: green !important;
+  
+}
+
+.multi-column.element-group {
+background-color: blue !important;
+
+}
+
+.multi-column.element-group .text {
+background-color: purple !important;
+padding: 5px 150px mso-table-lspace:10pt;mso-table-rspace:10pt; !important; /* does not work*/
+text-indent: 20px !important; /*Works but has to be tested with litmus*/
+line-height: 14px !important;
+font-family: tahoma !important; 
+font-size: 20px !important;
+
+
+}
+
+.articleText_bluebg {  /* Custom naming required */
+line-height: 14px !important;
+font-family: verdana !important; /*Does not work, will have to be changed in the html*/
+
+}
+
+
+.button_red .button_link {
+background-color: red !important;
+font-family: verdana !important;
+}
+
+@media only screen and (max-width: 600px) {
+      /* Add handheld styles here. */
+      .emailEditorBlockTable {width: 440px  !important; padding: 0 !important;}
+      .mobile-table {width: 440px  !important; padding: 0 !important;}
+      .group-element {width: 100%  !important; padding: 0 !important;}
+      .multicolumnBlockTd {padding: 0 !important}
+      .emailEditorBlockTable-multiColumn  {width: 440px !important; padding: 0 !important;}
+      .group-element .emailEditorBlockTable-multiColumn  {width: 100%  !important; padding: 0 !important;}
+      .mobile-table  {float: none !important;}
+      .emailEditorBlockTable-multiColumn  {text-align: center !important}
+      .button {padding-bottom: 25px !important}
+      .emailCenteringTable {width: 100% !important;}
+      .emailWrapperTable {width: 100% !important;}
+      .emailEditorBlockTable {width: 100% !important;}
+      .emailImg {width: 100% !important;  height: auto !important}
+      div {width: 100% !important;}
+      }
+    @media only screen and (max-width: 479px) {
+      /* Add handheld styles here. */
+      .emailEditorBlockTable {width: 280px  !important; padding: 0 !important;}
+      .mobile-table {width: 280px  !important; padding: 0 !important;}
+      .group-element {width: 100%  !important; padding: 0 !important;}
+      .multicolumnBlockTd {padding: 0 !important}
+      .emailEditorBlockTable-multiColumn  {width: 280px !important; padding: 0 !important;}
+      .group-element .emailEditorBlockTable-multiColumn  {width: 100%  !important; padding: 0 !important;}
+      .mobile-table  {float: none !important;}
+      .emailEditorBlockTable-multiColumn  {text-align: center !important}
+      .button {padding-bottom: 25px !important}
+      .emailCenteringTable {width: 100% !important;}
+      .emailWrapperTable {width: 100% !important;}
+      .emailEditorBlockTable {width: 100% !important;}
+      .emailImg {width: 100% !important;  height: auto !important}
+      div {width: 100% !important;}
+      }
