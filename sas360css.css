@@ -1,9 +1,47 @@
 
+@font-face {
+    font-family: 'Danske Human';
+    src: local('Danske_header_italic'), url('https://assets.prod.ibn.host/Blandet/Danica/Danske_header_italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Danske Text';
+        src: local('Danske_body_regular'), url('https://assets.prod.ibn.host/Blandet/Danica/Danske_body_regular.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Danske Text';
+        font-weight: 400;
+        font-style: italic;
+        src: local('Danske_body_italic'), url('https://assets.prod.ibn.host/Blandet/Danica/Danske_body_italic.woff2') format('woff2');
+    }
+
+    @font-face {
+        font-family: 'Danske Text';
+        src: local('Danske_body_semibold'), url('https://assets.prod.ibn.host/Blandet/Danica/Danske_body_semibold.woff2') format('woff2');
+        font-weight: 600;
+        font-style: normal;
+    }
+	*[style*="Georgia"],
+		*[style*="Times"],
+		*[style*="serif"] {
+		font-family: 'Danske Human' !important; 
+		}
+		*[style*="Verdana"],
+        *[style*="sans-serif"] {
+        font-family: 'Danske Text' !important; 
+        }
+        
+        
+
 
 .text {
 line-height: 5.5px !important;
 color: white !important;
-font-family: verdana !important;
 background-color: yellow !important;
 font-size: 10px !important;
 color: green !important;
